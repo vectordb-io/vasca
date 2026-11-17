@@ -54,6 +54,6 @@ s3-verify
 xattr
 xl-meta
 
-# vobstore local build and development data
-/vobstore
+# vasca local build and development data
+/vasca
 /data/

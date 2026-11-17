@@ -27,6 +27,6 @@ jobs:
           go-version: '1.24.8'
           cache: true
       - name: Build
-        run: go build -tags kqueue -trimpath -o vobstore .
+        run: go build -tags kqueue -trimpath -o vasca .
       - name: Internal unit tests
         run: go test -tags kqueue,dev ./internal/...
